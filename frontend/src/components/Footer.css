@@ -1,0 +1,14 @@
+.footer {
+  background-color: #111827; /* Dark Gray */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}

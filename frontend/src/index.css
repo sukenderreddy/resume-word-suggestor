@@ -1,0 +1,22 @@
+/* Ensure full viewport height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Use Grid for layout */
+.app-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Header | Content | Footer */
+  min-height: 100vh;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #111827; /* Dark Gray */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
